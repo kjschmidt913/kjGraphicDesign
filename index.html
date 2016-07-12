@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script data-require="angular.js@*" data-semver="1.3.16" src="https://code.angularjs.org/1.3.16/angular.js"></script>
+    <script data-require="angular-route@*" data-semver="1.3.16" src="https://code.angularjs.org/1.3.16/angular-route.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-app="routeEx">
+    <div id="topDiv">
+      <img id="topLogo" src="/images/longhandlogoFINAL.jpg" />
+    
+    <div class="links">
+      <a href="#/">Home</a> | <a href="#/viewTwo">Designs</a> | <a href="#/viewThree">Custom Work</a> | <a href="#/viewFour">Contact</a>
+   </div>
+ </div>
+    <div ng-view=""></div>
+  
+
+
+ 
+  </body>
+
+</html>

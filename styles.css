@@ -1,0 +1,121 @@
+#topLogo {
+	width: 15%;
+}
+
+#topDiv{
+	text-align: center;
+}
+
+.info{
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1%;
+	font-size: 1.5em;
+
+}
+
+#homeImage{
+	width:50%;
+}
+
+#homeImageDiv{
+	text-align: center;
+	margin-top: 2%;
+}
+
+#insta{
+	width: 15%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#social {
+	text-align: center;
+}
+
+/*design page */
+
+.designInfo{
+	width: 62%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#imageContainerDiv{
+	width: 100%;
+}
+
+.prints {
+	width: 250px;
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+.prints:hover{
+	opacity: 40%;
+	width: 33%;
+}
+
+.printsSquare:hover{
+	opacity: 40%;
+	width: 33%;
+}
+
+.imageRow {
+	width: 98%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.printsSquare{
+	width: 31.5%;
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+/*custom prints page */
+
+.largePrints{
+	width: 70.4%;
+}
+
+.printsCustom{
+	width: 35%;
+	display: inline;
+}
+
+.printsStates{
+	width: 23.2%;
+	display: inline;
+}
+
+
+/*contact page */
+
+#button {
+	display: block;
+	float: right;
+	margin-top: 2%;
+	margin-right: 11%
+}
+
+.contactForm{
+	margin-right: auto;
+	margin-left: auto;
+	width: 30%;
+}
+
+#messageBox{
+	width: 325px;
+	height: 100px;
+	display: block;
+}
