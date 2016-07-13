@@ -45,9 +45,7 @@ footer{
 	margin-left: auto;
 	margin-top: 1%;
 	font-size: 1em;
-	margin-bottom: 0px;
-	
-
+	margin-bottom: 0px;	
 }
 
 #homeImage{
@@ -130,9 +128,9 @@ footer{
 
 #button {
 	display: block;
-	float: right;
+	float: left;
 	margin-top: 2%;
-	margin-right: 11%
+	
 }
 
 .contactForm{
@@ -147,5 +145,37 @@ footer{
 	width: 325px;
 	height: 100px;
 	display: block;
+}
+
+
+/*media queries */
+
+img {
+    max-width: 100%
+}
+
+@media only screen and (max-width : 900px) {
+	.info{
+		width: 98%;
+	}
+	#homeImage{
+		width:98%;
+	}
+	#insta{
+		width: 35%;
+	}
+	.largePrints, .printsCustom, .printsStates{
+		width: 100%;
+		display: block;
+	}
+	.printsSquare{
+		width: 100%;
+		display: block;
+	}
+	#messageBox{
+		width: 150px;
+		height: 200px;
+		margin-bottom: 3%;
+	}
 }
 
