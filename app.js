@@ -2,12 +2,12 @@ var app = angular.module('routeEx', ['ngRoute']);
 
 app.config(function($routeProvider){
   $routeProvider.when('/', {
-    templateUrl: 'viewOne.html',
+    templateUrl: 'ViewOne.html',
     controller: 'routeCtrl'
   });
   
   $routeProvider.when('/viewTwo', {
-    templateUrl: 'viewTwo.html',
+    templateUrl: 'ViewTwo.html',
     controller: 'routeCtrl'
   }).
   
