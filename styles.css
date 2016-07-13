@@ -10,14 +10,21 @@
 	margin-bottom: 0px;
 }
 
-a{
-	text-decoration: none;
-	color:#EC8B8B;
+a {
+  text-decoration: none;
+  color: #ec8b8b;
 }
-
-a:hover{
-	text-decoration: none;
-	color: #bc6f6f;
+a:hover {
+  text-decoration: none;
+  color: #bc6f6f;
+}
+a:visited {
+  text-decoration: none;
+  color: #ec8b8b;
+}
+a:active,
+a:link {
+  text-decoration: none;
 }
 
 footer{
