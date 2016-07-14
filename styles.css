@@ -226,13 +226,16 @@ img {
 
 	#linksMobile{
 		margin-bottom: 8%;
+		border-top: 2px solid #eeeeee;
+		border-bottom: 2px solid #eeeeee;
 	}
 
 	#linksMobile a{
 		display:block;
 		font-size: 1.2em;
-		background-color: #eeeeee;
 		color: #ed9696;
+		padding-bottom: 3%;
+		padding-top: 3%
 	}
 
 	#linksMobile a:active{
