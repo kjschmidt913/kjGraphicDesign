@@ -50,8 +50,14 @@ footer{
 }
 
 @media only screen and (min-width: 728px){
+
+
 #topLogo {
 	width: 30%;
+}
+
+#linksMobile{
+	display: none;
 }
 
 .info{
@@ -198,6 +204,10 @@ img {
 		margin-bottom: 3%;
 	}
 
+	#nameBox{
+		width: 80%;
+	}
+
 	#button {
 		display: block;
 		margin-top: 2%;
@@ -210,6 +220,18 @@ img {
 		width: 80%;
 		padding-bottom: 30%;
 		text-align: left;
-
 	}
+
+	#linksDesk{
+		display: none;
+	}
+
+	#linksMobile a{
+		display:block;
+	}
+
+	#linksMobile a:active,{
+	  background-color: gray;
+	}
+
 }
