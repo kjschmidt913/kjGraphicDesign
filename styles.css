@@ -12,18 +12,16 @@
 	
 }
 
-a {
+a, a:visited {
   text-decoration: none;
   color: #ec8b8b;
 }
+
 a:hover {
   text-decoration: none;
   color: #bc6f6f;
 }
-a:visited {
-  text-decoration: none;
-  color: #ec8b8b;
-}
+
 a:active,
 a:link {
   text-decoration: none;
@@ -226,12 +224,19 @@ img {
 		display: none;
 	}
 
-	#linksMobile a{
-		display:block;
+	#linksMobile{
+		margin-bottom: 5%;
 	}
 
-	#linksMobile a:active,{
-	  background-color: gray;
+	#linksMobile a{
+		display:block;
+/*		background-color: #eeeeee;*/
+		color: #ed9696;
+	}
+
+	#linksMobile a:active{
+/*	  font-weight: bold;*/
+	  background-color: #eeeeee;
 	}
 
 }
