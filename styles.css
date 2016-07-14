@@ -233,6 +233,7 @@ img {
 		font-size: 1.2em;
 /*		background-color: #eeeeee;*/
 		color: #ed9696;
+		border: 1px solid #eeeeee;
 	}
 
 	#linksMobile a:active{
